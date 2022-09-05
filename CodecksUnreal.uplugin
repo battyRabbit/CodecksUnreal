@@ -1,0 +1,30 @@
+﻿{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "CodecksUnreal",
+  "Description": "A library wrapping the user report features for codecks project management ( https://www.codecks.io/ )",
+  "Category": "Other",
+  "CreatedBy": "battyRabbit UG (limited liability)",
+  "CreatedByURL": "https://github.com/battyRabbit/CodecksUnreal",
+  "DocsURL": "https://github.com/battyRabbit/CodecksUnreal",
+  "SupportURL": "https://github.com/battyRabbit/CodecksUnreal/issues",
+  "MarketplaceURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "EnabledByDefault": true,
+  "Modules": [
+    {
+      "Name": "CodecksUnreal",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "CodecksUnrealEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
