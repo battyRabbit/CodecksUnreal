@@ -1,0 +1,76 @@
+[attr]lock filter=lfs diff=lfs merge=binary -text lockable
+[attr]lfs filter=lfs diff=lfs merge=binary -text
+[attr]source encoding=UTF-8
+
+# Unreal files
+*.uasset lock  
+*.umap lock 
+
+*.udk lfs
+*.upk lfs
+
+*.locres lfs
+*.locmeta lfs
+
+# Source or Text files
+*.csv source
+*.h   source
+*.cpp source
+*.ini source
+
+# Assets
+*.abc lfs 
+*.aep lfs 
+*.afdesign lfs 
+*.afphoto lfs 
+*.ai lfs 
+*.aif lfs 
+*.avi lfs 
+*.bgeo lfs 
+*.bin lfs 
+*.bin.fbx lfs 
+*.blend lfs 
+*.fbx lfs 
+*.geo lfs 
+*.gi lfs 
+*.gi2 lfs 
+*.glb lfs 
+*.gltf lfs 
+*.hdr lfs 
+*.hip lfs 
+*.hiplc lfs 
+*.hda lfs 
+*.hdalc lfs 
+*.hipnc lfs 
+*.jpeg lfs 
+*.jpg lfs 
+*.kra lfs 
+*.ma lfs 
+*.max lfs 
+*.mb lfs 
+*.mov lfs 
+*.mp3 lfs 
+*.mp4 lfs 
+*.mpeg lfs 
+*.mpg lfs 
+*.obj lfs 
+*.profraw lfs 
+*.prproj lfs 
+*.psb lfs 
+*.psd lfs 
+*.stl lfs 
+*.tga lfs 
+*.tif lfs 
+*.tiff lfs 
+*.usd lfs 
+*.usdc lfs 
+*.usdz lfs 
+*.vdb lfs 
+*.wav lfs 
+*.xls lfs 
+*.xlsx lfs 
+
+# Binaries
+*.exe lfs
+*.dll lfs
+

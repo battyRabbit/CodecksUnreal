@@ -76,16 +76,6 @@ Config/DefaultEditorPerProjectUserSettings.ini
 
 *_HLOD*
 
-## Binary Source Assets 
-
-*.png
-*.psd
-*.wav
-*.tga
-*.fbx
-*.jpg
-*.tif
-
 ### Exclude rule for pngs in Source Code (Documentation)
 !/Source/**/*.png
 
