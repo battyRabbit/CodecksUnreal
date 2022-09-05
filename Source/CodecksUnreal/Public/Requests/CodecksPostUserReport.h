@@ -16,7 +16,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FCodecksUnrealUserRequestUpdateDeleg
 
 
 UCLASS(ClassGroup=(CodecksUnreal), meta=(ExposedAsyncProxy))
-class UCodecksPostUserReport : public UCancellableAsyncAction
+class CODECKSUNREAL_API UCodecksPostUserReport : public UCancellableAsyncAction
 {
 	GENERATED_BODY()
 
