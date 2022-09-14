@@ -51,6 +51,8 @@ You can also just use the CodecksUserReportRequest object directly using more of
 ```c++
 UCodecksUserReportRequest* NewUserReport = NewObject<UCodecksUserReportRequest>();
 
+// ... SetContent, SetEmail, SetSeverity here
+
 // Just sending it off and not caring
 NewUserReport->CreateReport();
 
