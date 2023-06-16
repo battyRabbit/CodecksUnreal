@@ -150,9 +150,7 @@ void UCodecksUserReportRequest::AddRequestData(const TSharedPtr<FJsonObject>& Js
 
 void UCodecksUserReportRequest::AttachFile(const FString& Filename, const FString& FileContents)
 {
-	//~ BATTY_TODO(Hati) Convert FileContents to TArrayView64<uint8>
-	// TArrayView64<uint8>(const_cast<ANSICHAR*>(StringCast<ANSICHAR>(*FileContents).Get()))
-	AttachFile(Filename, TArray64<uint8>(reinterpret_cast<const uint8*>(GetData(FileContents)), FileContents.Len()), "text/plain");
+	AttachFile(Filename, TArray64<uint8>(reinterpret_cast<const uint8*>(GetData(FileContents)), FileContents.GetAllocatedSize()), "text/plain");
 }
 
 void UCodecksUserReportRequest::AttachFile(const FString& Filename, const TArrayView64<uint8>& Binary, FString ContentType)
