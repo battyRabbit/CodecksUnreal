@@ -6,6 +6,7 @@
 
 #include <Dom/JsonObject.h>
 #include <JsonObjectWrapper.h>
+#include <Tasks/Pipe.h>
 #include <UObject/Object.h>
 
 #include "CodecksUserReportRequest.generated.h"
